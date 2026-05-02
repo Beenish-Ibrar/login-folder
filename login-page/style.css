@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(17,100,100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+.card{
+    width: 330px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.card h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+}
+
+.card input{
+    width: 100%;
+    padding:12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.card button{
+    width: 100%;
+    padding:12px;
+    margin-top: 15px;
+    background-color: rgb(17,100,100);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointerfont-size: 16px;
+}
+.forgot{
+    margin: 12px;
+    font-size:14px;
+    color: #555;
+}
+
+.signup{
+    margin: 12px;
+    font-size: 14px;
+    color: #555;
+}
+
+.signup span{
+    font-weight: bold;
+    color:  rgb(17,100,100); 
+    cursor: pointer;
+}
+
+
+
+
